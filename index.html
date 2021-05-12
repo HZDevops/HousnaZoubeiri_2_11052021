@@ -5,6 +5,7 @@
 
     <head>
         <meta charset="utf-8" />
+        <script src="https://kit.fontawesome.com/330caa293f.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css" />
         <title>Reservia - Hébergements de vacances</title>
     </head>
@@ -19,7 +20,7 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="#">Hébergements</a></li>
+                    <li><a href="#hebergement_ancre">Hébergements</a></li>
                     <li><a href="#">Activités</a></li>
                     <li><a href="#">S'inscrire</a></li>
                 </ul>
@@ -34,11 +35,11 @@
             </div>
 
             <div id="recherche_hébergement">
-            <form method="post" action="traitement.php">
-                <img src="images/icones/room_black_24dp.svg" alt="Catégorie lieu" class="ico_lieu" />
-                <input type="search" />
-                <a href="#" class="bouton_bleu">Rechercher</a>
-            </form>
+                <form method="post" action="traitement.php">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input type="search" />
+                    <a href="#" class="bouton_bleu">Rechercher</i></a>
+                </form>
             </div>
         </section>
 
@@ -48,21 +49,26 @@
             <div id="filtres">
                 <h3> Filtres</h3>
                 <div id="economique">
-                    <a href="#" class="bouton_eco"><img src="images/icones/money-icon.png" alt=""/>Economique</a>
+                    <a href="#" class="bouton_eco"><i class="fas fa-money-bill-wave">Economique</i></a>
                 </div>
                 <div id="familial">
-                    <a href="#" class="bouton_fam"><img src="images/icones/child-icon.png" alt=""/>Familial</a>
+                    <a href="#" class="bouton_fam"><i class="fas fa-child">Familial</i></a>
                 </div>
                 <div id="type">
-                    <a href="#" class="bouton_type"><img src="images/icones/heart-icon.png" alt=""/>Romantique</a>
+                    <a href="#" class="bouton_type"><i class="fas fa-heart">Romantique</i></a>
                 </div>
                 <div id="animal">
-                    <a href="#" class="bouton_anim"><img src="images/icones/dog-icon.png" alt=""/>Animaux autorisés</a>
+                    <a href="#" class="bouton_anim"><i class="fas fa-dog">Animaux autorisés</i></a>
                 </div>
                 <div id="info">
-                    <img src="images/icones/info-icon.png" alt=""/><span> Plus de 500 logements sont disponibles dasn cette ville</span>
+                    <i class="fas fa-info-circle"> Plus de 500 logements sont disponibles dasn cette ville</i>
                 </div>
             </div>
+        </section>
+
+        <!--Troisième section de la page -->
+        <section>
+            <h1 id="hebergement_ancre">Hébergements à Marseille</h1>
         </section>
     </body>
 </html>
