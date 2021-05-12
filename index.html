@@ -1,15 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang=fr>
+
+    <!-- En-tête de la page -->
+
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style.css" />
         <title>Reservia - Hébergements de vacances</title>
     </head>
     
+    <!--Corps de la page -->
+   
     <body>
+        <!--Entête de la page -->
         <header>
             <div id="logo">
-                <img src="images/logo/Reservia@3x.png" alt="Logo de Reservia" />              
+                <img src="images/logo/Reservia.svg" alt="Logo de Reservia" />              
             </div>
             <nav>
                 <ul>
@@ -19,5 +25,44 @@
                 </ul>
             </nav>
         </header>
+        
+        <!--Première section de la page -->
+        <section>
+            <div id="titre_principal">
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou en pleine nature</p>
+            </div>
+
+            <div id="recherche_hébergement">
+            <form method="post" action="traitement.php">
+                <img src="images/icones/room_black_24dp.svg" alt="Catégorie lieu" class="ico_lieu" />
+                <input type="search" />
+                <a href="#" class="bouton_bleu">Rechercher</a>
+            </form>
+            </div>
+        </section>
+
+        <!--Deuxième section de la page -->
+        <section>
+            
+            <div id="filtres">
+                <h3> Filtres</h3>
+                <div id="economique">
+                    <a href="#" class="bouton_eco"><img src="images/icones/money-icon.png" alt=""/>Economique</a>
+                </div>
+                <div id="familial">
+                    <a href="#" class="bouton_fam"><img src="images/icones/child-icon.png" alt=""/>Familial</a>
+                </div>
+                <div id="type">
+                    <a href="#" class="bouton_type"><img src="images/icones/heart-icon.png" alt=""/>Romantique</a>
+                </div>
+                <div id="animal">
+                    <a href="#" class="bouton_anim"><img src="images/icones/dog-icon.png" alt=""/>Animaux autorisés</a>
+                </div>
+                <div id="info">
+                    <img src="images/icones/info-icon.png" alt=""/><span> Plus de 500 logements sont disponibles dasn cette ville</span>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
