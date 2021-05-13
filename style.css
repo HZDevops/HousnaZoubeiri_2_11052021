@@ -3,7 +3,7 @@
 @font-face
 {
     font-family:'Raleway';
-    /*src: url(polices/Raleway-VariableFont_wght.ttf);*/
+    src: url(polices/Raleway-VariableFont_wght.ttf);
     src: url(polices/static/Raleway-ExtraBold.ttf);
     src: url(polices/static/Raleway-Light.ttf);
     src: url(polices/static/Raleway-Regular.ttf);
