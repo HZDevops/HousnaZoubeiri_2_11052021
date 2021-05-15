@@ -4,25 +4,26 @@
     <head>
         <meta charset="utf-8" />
         <script src="https://kit.fontawesome.com/330caa293f.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style.css" /> <!-- Pour tout le monde -->
+        <link rel="stylesheet" media="screen and (max-width: 1280px)" href="mobile_resolution.css" /> <!-- Pour ceux qui ont une résolution inférieure à 1280px -->
         <title>Reservia - Hébergements de vacances</title>
     </head>
     
     <!--Corps de la page -->
    
     <body>
+        
         <!--Entête de la page -->
         <header>
-            <div id="logo">
-                <img src="images/logo/Reservia.svg" alt="Logo de Reservia" />              
-            </div>
+            <img src="images/logo/Reservia.svg" alt="Logo de Reservia" />              
+            <p>S'inscrire</p>
             <nav>
                 <ul>
                     <li><a href="#hebergement_ancre">Hébergements</a></li>
                     <li><a href="#activite_ancre">Activités</a></li>
-                    <li><a href="#">S'inscrire</a></li>
                 </ul>
             </nav>
+            
         </header>
         
         <!-- Section 1 de la page -->
@@ -278,5 +279,6 @@
                 <p>Nous contacter</p>
             </div>
         </footer>
+   
     </body>
 </html>

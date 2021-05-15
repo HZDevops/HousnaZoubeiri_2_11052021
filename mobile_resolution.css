@@ -1,0 +1,81 @@
+/* Définition des polices personnalisées */
+
+@font-face
+{
+    font-family:'Raleway';
+    src: url(polices/Raleway-VariableFont_wght.ttf);
+    src: url(polices/static/Raleway-ExtraBold.ttf);
+    src: url(polices/static/Raleway-Light.ttf);
+    src: url(polices/static/Raleway-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+    
+        
+}
+
+body
+{
+    font-family:'Raleway';
+    font-weight:lighter;
+    width: 375px;
+    margin: auto;
+}
+
+
+h1, h2, h3, h4
+{
+    font-family: 'Raleway';
+    font-weight:bold;
+    
+}
+
+/* Entête de la page */
+header 
+{
+    color: #0065FC;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 375px;
+}
+
+img
+{
+    margin-left: 15px;
+}
+header p
+{
+    font-weight: bold;
+    margin-right: 15px;
+     
+}
+
+header nav 
+{
+ width: 375px;
+ border-bottom: 3px solid #eeeaea;
+}
+
+nav ul
+{
+list-style-type: none;
+display: flex;
+justify-content: space-between;
+padding-left: 35px;
+padding-right: 60px;
+}
+
+nav a
+{
+    color: #181818;
+    text-decoration: none;
+   
+}
+
+nav a:hover
+{
+    color: #0065FC;
+}
+
+
+  
