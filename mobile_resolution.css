@@ -77,5 +77,49 @@ nav a:hover
     color: #0065FC;
 }
 
-
+#titre_principal
+{
+    text-align: center;    
+    
+}
   
+section p
+{
+    text-align: left;
+    margin-left: 35px;
+}
+
+#recherche_hébergement
+{
+
+}
+
+
+/* Pied de page
+**manque mise en forme h4 plus gras**
+*/
+footer
+{
+    background-color: #F2F2F2;
+    text-align: left;
+    height: 520px;
+    padding-bottom: 50px;
+}
+
+#a_propos
+{
+    margin-left: 30px;
+    padding-top: 25px;
+}
+
+#nos_hebergements
+{
+    margin-left: 30px;
+    padding-top: 25px;
+}
+
+#assistance
+{
+    margin-left: 30px;
+    padding-top: 25px;
+}
