@@ -27,13 +27,13 @@
         </header>
         
         <!-- Section 1 de la page -->
-        <section>
+        <section id="section_1">
             <div id="titre_principal">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
             </div>
 
-            <div id="recherche_hébergement">
+            <div id="recherche_hebergement">
                 <form method="post" action="traitement.php">
                     <i class="fas fa-map-marker-alt"></i>
                     <input type="search" />
@@ -43,7 +43,7 @@
         </section>
 
         <!--Section 2 de la page -->
-        <section>
+        <section id="section_2">
             
             <div id="filtres">
                 <h3> Filtres</h3>
@@ -66,7 +66,7 @@
         </section>
 
         <!--Section 3 de la page -->
-        <section>
+        <section id="section_3">
 
             <!--Article hébergements à Marseille -->
             <article>
@@ -159,7 +159,8 @@
                         <div class="etoile 4"><i class="fas fa-star"></i></div>
                         <div class="etoile 5"><i class="fas fa-star"></i></div>
                     </div>
-                </div>      
+                </div>    
+                <h3>Afficher plus</h3>  
             </article>
 
             <!--Aside hébergements populaires à Marseille -->
@@ -170,20 +171,19 @@
                 </div>
 
                     <!--Carte Hôtel Le soleil du matin-->
-                <div id="hotel_soleil">
-                    <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Photo Hôtel Le soleil du matin" />
-                    <h4>Hôtel Le soleil du matin</h4>
-                    <br />Nuit à partir de <strong>128€</strong>
+                <a href="#" id="hotel_soleil">
+                    <figure>
+                        <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Photo Hôtel Le soleil du matin" />
+                    </figure>
+                    <figcaption>Hôtel Le soleil du matin</figcaption> 
+                    <p>Nuit à partir de <strong>128€</strong></p>
                     <div id="soleil_etoile">
-                        <div class="etoile 1"><i class="fas fa-star"></i></div>
-                        <div class="etoile 2"><i class="fas fa-star"></i></div>
-                        <div class="etoile 3"><i class="fas fa-star"></i></div>
-                        <div class="etoile 4"><i class="fas fa-star"></i></div>
-                        <div class="etoile 5"><i class="fas fa-star"></i></div>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                     </div>
-                </div>  
+                </a>
+                  
                     <!--Carte Au coeur de l'eau Chambres d'hôtes-->
-                <div id="chambre_hote">
+                <a href="#" id="chambre_hote">
                     <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Photo Au coeur de l'eau Chambres d'hôtes" />
                     <h4>Au coeur de l'eau Chambres d'hôtes</h4>
                     <br />Nuit à partir de <strong>71€</strong>
@@ -194,7 +194,7 @@
                         <div class="etoile 4"><i class="fas fa-star"></i></div>
                         <div class="etoile 5"><i class="fas fa-star"></i></div>
                     </div>
-                </div>  
+                </a>  
                 <!--Carte Hôtel Tout bleu et Blanc-->
                 <div id="hotel_blanc">
                     <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Photo Hôtel Tout bleu et Blanc" />
@@ -209,6 +209,7 @@
                     </div>
                 </div>  
             </aside>
+        </section>
 
             <!--Article activités à Marseille -->
             <article>
@@ -255,7 +256,7 @@
                 </div>
 
             </article>
-        </section>
+        
 
             <!--Pied de la page-->
         <footer>

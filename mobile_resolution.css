@@ -89,12 +89,64 @@ section p
     margin-left: 35px;
 }
 
-#recherche_hébergement
+/*#recherche_hebergement
 {
 
+}*/
+
+/**Mise en forme Section 3**/
+#section_3
+{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/** Mise en forme Aside Section 3**/
+aside
+{
+    background-color: #F2F2F2;
+}
+
+#popularite
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+aside i
+{
+    padding-top: 25px;
+    padding-right: 20px;
+}
+
+aside h2
+{
+    padding-left: 20px;
+}
+
+#hotel_soleil
+{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 130px;
+    border: 1px solid #181818;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#hotel_soleil figure
+{
+    height: 100px;
 }
 
 
+#hotel_soleil img
+{
+    width: 150px;
+    margin-left: 0px;
+}
 /* Pied de page
 **manque mise en forme h4 plus gras**
 */
