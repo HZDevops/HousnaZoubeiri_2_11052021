@@ -1,28 +1,62 @@
-/* Définition des polices personnalisées */
-
-@font-face
-{
-    font-family:'Raleway';
-    src: url(polices/Raleway-VariableFont_wght.ttf);
-    src: url(polices/static/Raleway-ExtraBold.ttf);
-    src: url(polices/static/Raleway-Light.ttf);
-    src: url(polices/static/Raleway-Regular.ttf);
-    font-weight: normal;
-    font-style: normal;
-    
-        
-}
 
 body
 {
-    font-family:'Raleway';
-    font-weight:lighter;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
     
 }
 
 h1, h2, h3, h4
 {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight:bold;
     
+}
+
+/* Header */
+header
+{
+    color: #0065FC;
+    display: flex;
+           
+}
+
+header img
+{
+    width:30%;
+}
+
+header p
+{
+    color: #0065FC;
+    font-weight: bold;  
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: black;
+}
+
+footer
+{
+    background-color: #F2F2F2;
+}
+
+footer ul
+{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+footer a
+{
+    width: 85%;
+    text-decoration: none;
+    color: black;
 }
