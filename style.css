@@ -42,6 +42,18 @@ nav a
     text-decoration: none;
     color: black;
 }
+article a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*article img
+{
+    width: max-content;
+}
+*/
 
 footer
 {

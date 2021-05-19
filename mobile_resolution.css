@@ -4,4 +4,39 @@
     flex-direction: column;
     align-items: center;
     padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+h2
+{
+    width: 100%;
+}
+#marseille_leisure
+{
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+article a
+{
+    width: 345px;
+    height: 200px;
+    border-left-width: 1.5px;
+    margin-bottom: 10%;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 6px 6px 6px #E8E8E8;
+    
+}
+
+#marseille_leisure img
+{
+    width: 345px;
+    height: 145px;  
+    border-radius: 20px 20px 0px 0px;
+}
+
+article h4
+{
+    padding-left: 5%;
 }
