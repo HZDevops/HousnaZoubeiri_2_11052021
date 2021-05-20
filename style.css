@@ -6,12 +6,20 @@ body
     
 }
 
-h1, h2, h3, h4
+h1, h2, h3, h4, h5
 {
     font-family: 'Raleway', sans-serif;
     font-weight:bold;
     
 }
+
+h3
+{
+    width: 100%;
+    margin-left: 3%;
+}
+
+
 
 /* Header */
 header
@@ -42,12 +50,12 @@ nav a
     text-decoration: none;
     color: black;
 }
-article a
+
+.accommodation_card, .activity_card
 {
     text-decoration: none;
     color: black;
 }
-
 
 /*article img
 {

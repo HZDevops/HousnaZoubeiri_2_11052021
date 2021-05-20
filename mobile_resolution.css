@@ -7,18 +7,16 @@
     padding-bottom: 10%;
 }
 
-h2
-{
-    width: 100%;
-}
-#marseille_leisure
+
+
+#marseille_card
 {
     display: flex; 
     justify-content: center;
     flex-wrap: wrap;
 }
 
-article a
+.accommodation_card
 {
     width: 345px;
     height: 200px;
@@ -29,14 +27,61 @@ article a
     
 }
 
-#marseille_leisure img
+.accommodation_card img
+{
+    width: 345px;
+    height: 120px;  
+    border-radius: 20px 20px 0px 0px;
+}
+
+.accommodation_card h5 
+{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.accommodation_card p 
+{
+    font-size: 0.8em;
+    padding-left: 3%;
+    margin-top: 1.5%;
+    margin-bottom: 0.5%;
+}
+
+#stars_number
+{
+    padding-left: 3%;
+    margin-top: 3%;
+}
+
+
+.activity_card
+{
+    width: 345px;
+    height: 200px;
+    border-left-width: 1.5px;
+    margin-bottom: 15%;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 6px 6px 6px #E8E8E8;
+    
+}
+
+.activity_card img
 {
     width: 345px;
     height: 145px;  
     border-radius: 20px 20px 0px 0px;
 }
 
-article h4
+.activity_card h5
 {
     padding-left: 5%;
+    margin-top: 5%;
+}
+
+
+#marseille_card h5
+{
+    width: 100%;
+    margin-left: 3%;
 }
