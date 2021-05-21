@@ -51,7 +51,7 @@ nav a
     color: black;
 }
 
-.accommodation_card, .activity_card
+.accommodation_card, .activity_card, .famous_card
 {
     text-decoration: none;
     color: black;
@@ -62,10 +62,18 @@ nav a
     width: max-content;
 }
 */
+#third_section
+{
+    display: flex;
+    flex-direction: column-reverse;
+}
 
 footer
 {
     background-color: #F2F2F2;
+    margin-top: 5%;
+    padding-top: 10%;
+    margin-bottom: 0%;
 }
 
 footer ul
