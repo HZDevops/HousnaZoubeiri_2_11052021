@@ -122,6 +122,7 @@ h4
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: #F2F2F2;
+    padding-top: 5%;
 }
 
 .famous_card
