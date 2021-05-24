@@ -1,4 +1,67 @@
 
+body
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+}
+
+h1, h2, h3, h4, h5
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+}
+
+h3
+{
+    width: 100%;
+    margin-left: 3%;
+}
+
+
+/*** Header ***/
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav
+{
+    display: flex;
+    width: 43%;
+}
+
+nav ul
+{
+    list-style-type: none;
+    padding-top: 5%;
+    padding-right: 7.45%;
+}
+
+
+nav a
+{
+    font-size: 1em;
+    text-decoration: none;
+}
+
+/**First Section**/
+
+#search_menu
+{
+    
+}
+
+input
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: large;
+    font-weight:bold;
+    color: black;
+    border:none;
+}
+
+
 #second_section
 {
     display:flex;
@@ -11,60 +74,9 @@
 {
     width: auto;
     margin-bottom: 3px;
-      
-}
-
-body
-{
-    font-family: 'Raleway', sans-serif;
-    font-weight: normal;
-    
-}
-
-h1, h2, h3, h4, h5
-{
-    font-family: 'Raleway', sans-serif;
-    font-weight:bold;
-    
-}
-
-h3
-{
-    width: 100%;
-    margin-left: 3%;
 }
 
 
-
-/* Header */
-header
-{
-    color: #0065FC;
-    display: flex;
-           
-}
-
-header img
-{
-    width:30%;
-}
-
-header p
-{
-    color: #0065FC;
-    font-weight: bold;  
-}
-
-nav ul
-{
-    list-style-type: none;
-}
-
-nav a
-{
-    text-decoration: none;
-    color: black;
-}
 
 .accommodation_card, .activity_card, .famous_card
 {

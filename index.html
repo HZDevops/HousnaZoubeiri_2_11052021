@@ -19,14 +19,16 @@
         
         <!--Entête de la page -->
         <header>
-                      
-            <nav>
-                <img src="images/logo/Reservia.svg" alt="Logo de Reservia" />  
+            <img src="images/logo/Reservia.svg" alt="Logo de Reservia" />         
+           <nav>
+                <ul style="border-top:3px solid #0065fc">
+                    <li><a href="#hebergement" style="color: #0065fc;">Hébergements</a></li>
+                </ul>
                 <ul>
-                    <li><a href="#hebergement">Hébergements</a></li>
                     <li><a href="#activite">Activités</a></li>
-                    <li><a href="#">S'inscrire</a></li>
-                    </div>
+                </ul>
+                <ul>
+                    <li><a href="#" style="color: #0065fc; font-weight:bold;">S'inscrire</a></li>
                 </ul>
             </nav>
             
@@ -37,10 +39,14 @@
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
             
-            <div>
-                <i class="fas fa-map-marker-alt"></i>
-                <input type="search" />
-                <a href="#" class="bouton_bleu">Rechercher</a>
+            <div id="search_menu">
+                <a href="#">
+                <span class="fa-stack" style="font-size: 1.6rem;">
+                    <i class="fas fa-square fa-stack-2x" style="color: #F2F2F2;"></i><i class="fas fa-map-marker-alt fa-stack-1x fa-inverse" style="color:black;"></i>
+                </span><input type="text" placeholder="Marseille, France" size="16"/><span class="fa-stack" style="font-size: 1.6rem;">
+                    <i class="fas fa-square fa-stack-2x" style="color: #0065fc;"></i><i class="fas fa-search fa-stack-1x fa-inverse" style="color:white;"></i>
+                </span>
+            </a>
             </div>
         </section>
 

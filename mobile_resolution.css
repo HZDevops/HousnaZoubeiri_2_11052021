@@ -1,3 +1,17 @@
+/*** Header ***/
+header
+{
+    display: flex;
+    
+}
+
+header nav
+{
+    display: flex;
+    width: max-content;
+    flex-wrap: wrap-reverse;
+}
+
 #footer
 {
     display: flex;
