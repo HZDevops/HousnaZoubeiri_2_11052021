@@ -30,8 +30,8 @@ h1, h2, h3, h4, h5
 
 h3
 {
-    width: 90%;
-    margin-block: 3%;
+    width: 100%;
+    margin-left: 3%;
 }
 
 
@@ -80,7 +80,7 @@ nav a
     color: black;
 }
 
-.filtre_reservia a:hover
+.filtre_reservia p:hover
 {
     color: #0065FC;
 }
@@ -128,4 +128,9 @@ footer a
     width: 85%;
     text-decoration: none;
     color: black;
+}
+
+footer li
+{
+    padding-block: 2%;
 }
