@@ -1,0 +1,180 @@
+/*** Header ***/
+header
+{
+    display: flex;
+    
+}
+
+header nav
+{
+    display: flex;
+    width: max-content;
+    flex-wrap: wrap-reverse;
+}
+
+
+#second_section
+{
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+
+.accommodation_card
+{
+    width: 345px;
+    height: 195px;
+    border-left-width: 1.5px;
+    margin-bottom: 5%;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 6px 6px 6px #E8E8E8;
+    
+}
+
+.accommodation_card img
+{
+    width: 345px;
+    height: 120px;  
+    border-radius: 20px 20px 0px 0px;
+}
+
+.accommodation_card h5 
+{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+h4 
+{
+    width: 93%;
+}
+
+.accommodation_card p 
+{
+    font-size: 0.8em;
+    padding-left: 3%;
+    margin-top: 1.5%;
+    margin-bottom: 0.5%;
+}
+
+#stars_number
+{
+    padding-left: 3%;
+    margin-top: 2%;
+}
+
+
+.activity_card
+{
+    width: 345px;
+    height: 190px;
+    border-left-width: 1.5px;
+    margin-bottom: 7%;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 6px 6px 6px #E8E8E8;
+    
+}
+
+.activity_card img
+{
+    width: 345px;
+    height: 145px;  
+    border-radius: 20px 20px 0px 0px;
+}
+
+.activity_card h5
+{
+    padding-left: 5%;
+    margin-top: 5%;
+}
+
+
+#marseille_card h5
+{
+    width: 100%;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+
+#famous_title
+{
+    display: flex; 
+    justify-content: space-between;
+    width: 93%;
+}
+
+#famous_title h3
+{
+    width: max-content;
+    margin-left: 0;
+}
+
+#famous_graph
+{
+    margin-top: 5%;
+}
+
+
+aside
+{
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+    padding-top: 5%;
+}
+
+.famous_card
+{
+    width: 330px;
+    background-color: white;
+    height: 125px;
+    border-left-width: 1.5px;
+    margin-bottom: 10%;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 6px 6px 6px #E8E8E8;
+    
+}
+
+.famous_card img
+{
+    float: left;
+    width: 115px;
+    height: 115px;
+    border-radius: 20px 0px 0px 20px;
+    padding-left: 1.5%;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+    padding-right: 5%;
+}
+
+.famous_card h5
+{
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
+.famous_card p 
+{
+    font-size: 0.8em;
+    padding-left: 3%;
+    margin-top: 1.5%;
+    margin-bottom: 0.5%;
+}
+
+#stars_famous
+{
+    padding-left: 3%;
+    margin-top: 10%;
+}
+
+#footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10%;
+}

@@ -1,0 +1,128 @@
+/*** Header ***/
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav
+{
+    display: flex;
+    width: 43%;
+}
+
+nav ul
+{
+    list-style-type: none;
+    padding-top: 5%;
+    padding-right: 7.45%;
+}
+
+
+nav a
+{
+    font-size: 1em;
+    text-decoration: none;
+}
+
+/**First Section**/
+
+#search_menu
+{
+    
+}
+
+input
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: large;
+    font-weight:bold;
+    color: black;
+    border:none;
+}
+
+
+#second_section
+{
+    display:flex;
+    flex-wrap: wrap;
+    margin-block: 5%;
+}
+
+
+.filtre_reservia
+{
+    width: auto;
+    margin-bottom: 3px;
+}
+
+
+
+.accommodation_card, .activity_card, .famous_card
+{
+    text-decoration: none;
+    color: black;
+}
+
+#second_section a
+{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+    color: black;
+}
+
+.filtre_reservia p:hover
+{
+    color: #0065FC;
+}
+
+.filtre_reservia p 
+{
+    display: inline-block;
+    position: relative;
+    border-bottom: 3px solid #F2F2F2;
+    border-top: 3px solid #F2F2F2;
+    border-right: 3px solid #F2F2F2;
+    right: 25px;
+    margin-block: 5px;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 9px;
+    padding-top: 11px;
+    padding-bottom: 14px;
+    border-radius: 0px 40px 40px 0px;
+}
+
+
+#third_section
+{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+footer
+{
+    background-color: #F2F2F2;
+    margin-top: 5%;
+    padding-top: 10%;
+    margin-bottom: 0%;
+}
+
+footer ul
+{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+footer a
+{
+    width: 85%;
+    text-decoration: none;
+    color: black;
+}
+
+footer li
+{
+    padding-block: 2%;
+}

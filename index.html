@@ -21,7 +21,7 @@
         <header>
             <img src="images/logo/Reservia.svg" alt="Logo de Reservia" />         
            <nav>
-                <ul style="border-top:3px solid #0065fc">
+                <ul id="accommodation_border">
                     <li><a href="#hebergement" style="color: #0065fc;">Hébergements</a></li>
                 </ul>
                 <ul>
@@ -35,7 +35,7 @@
         </header>
         
         <!-- Firt Section of the page -->
-        <section>
+        <section id="first_section">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
             
@@ -43,7 +43,7 @@
                 <a href="#">
                 <span class="fa-stack" style="font-size: 1.6rem;">
                     <i class="fas fa-square fa-stack-2x" style="color: #F2F2F2;"></i><i class="fas fa-map-marker-alt fa-stack-1x fa-inverse" style="color:black;"></i>
-                </span><input type="text" placeholder="Marseille, France" size="16"/><span class="fa-stack" style="font-size: 1.6rem;">
+                </span><input type="text" placeholder="Marseille, France" size="16;"/><span class="fa-stack" style="font-size: 1.6rem;">
                     <i class="fas fa-square fa-stack-2x" style="color: #0065fc;"></i><i class="fas fa-search fa-stack-1x fa-inverse" style="color:white;"></i>
                 </span>
             </a>
@@ -85,7 +85,7 @@
 
             <!--Marseilles Accomodations Article-->
 
-            <article id="marseille_card">
+            <article>
                 <h3 id="hebergement">Hébergements à Marseille</h3>
 
                     <!--Auberge la Cannebière Card-->
@@ -158,11 +158,12 @@
             </article>
 
             <!--Aside Famous accommodations in Marseilles -->
-            <aside id="famous_place">
+            <aside>
                 <div id="famous_title">
                     <h3>Les plus populaires</h3>
                     <div id="famous_graph"><i class="fas fa-chart-line"></i></div>
                 </div>
+                
 
                     <!--Hôtel Le soleil du matin Card-->
                 <a href="#" class="famous_card">
