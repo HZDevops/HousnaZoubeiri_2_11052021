@@ -136,46 +136,7 @@ nav li a:hover{
     display: inline;
 }
 
-/*
-#search-accommodation p
-{
-    margin-left: 1%;
-    margin-right: 2%;
-}
-#search-menu
-{
-    display: flex;
-    justify-content: space-around;
-    border: 3px solid #F2F2F2;
-    border-radius: 40px;
-    padding-left: 60px;
-    padding-right: 10px;
-}
 
-input
-{
-    font-family: 'Raleway', sans-serif;
-    font-size: large;
-    font-weight:bold;
-    color: black;
-    border:none;
-}*/
-.black-color
-{
-    color:black;
-}
-
-.white-color
-{
-    color:white;
-}
-
-.search
-{
-    position:relative;
-    /*font-size: 1.75rem;*/
-    
-}
 
 /**Search Filters Section**/
 
