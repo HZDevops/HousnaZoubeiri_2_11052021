@@ -1,112 +1,395 @@
-/*** Header ***/
+body
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+}
+
+h1, h2, h3, h4, h5
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+}
+
+a 
+{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
+
 header
 {
     display: flex;
-    justify-content: space-between;
+   justify-content: space-between;
+}
+
+#logo
+{
+    margin-top: 30px;
 }
 
 header nav
 {
     display: flex;
-    width: 43%;
+   
 }
 
-nav ul
+.menu
 {
+    display: flex;
     list-style-type: none;
-    padding-top: 5%;
-    padding-right: 7.45%;
+}
+
+nav li
+{
+    padding-top: 25px;
+}
+
+.menu a
+{
+    padding: 0 30px 15px;
 }
 
 
-nav a
+.signUp
 {
-    font-size: 1em;
-    text-decoration: none;
+    color: #0065FC;
+    font-weight: bold;
+    padding: 40px;
 }
 
-/**First Section**/
-
-#search_menu
+nav li a:hover
 {
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+    padding-top: 38px;
+}
+  
+
+/**Search Accommodations Section**/
+
+.search-accommodations
+{
+    margin-bottom: 30px;
+}
+
+.search-accommodations h2
+{
+    margin-bottom: 10px;
+}
+
+.search-accommodations p
+{
+    margin-top: 10px;
+}
+
+.search-menu
+{
+    display: flex;
+    margin-bottom: 30px;
+    height: 50px;
+}
+
+.container-marker
+{
+    display: flex;
+    background-color: #F2F2F2;
+    border-radius: 15px 0 0 15px;
+    width: 50px;
+}
+
+.container-marker i
+{
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+.search-input
+{
+    border: 1px solid #F2F2F2;
+    padding: 0 0 0 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 230px;
+}
+
+.search-input::placeholder
+{
+    color: black;
+}
+
+.search-button
+{
+    width: 130px;
+    background-color: #0065FC;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    color: #fff;
+    font-weight:bold;
+    font-size: 1rem;
     
 }
 
-input
-{
-    font-family: 'Raleway', sans-serif;
-    font-size: large;
-    font-weight:bold;
-    color: black;
-    border:none;
+.search-button i{
+    display: none;
 }
 
 
-#second_section
+
+/**Search Filters Section**/
+
+#filters-section
 {
     display:flex;
     flex-wrap: wrap;
-    margin-block: 5%;
 }
 
-
-.filtre_reservia
+#filters-section h3
 {
-    width: auto;
-    margin-bottom: 3px;
+    margin-right: 25px;
 }
 
-
-
-.accommodation_card, .activity_card, .famous_card
+#filters-section a
 {
-    text-decoration: none;
-    color: black;
-}
-
-#second_section a
-{
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
     font-weight:bold;
-    color: black;
+    margin-right: 75px;
 }
 
-.filtre_reservia p:hover
+.filter-type
+{
+    display: flex;
+    position: relative;
+    border: 3px solid #F2F2F2;
+    border-radius: 40px;
+    padding-left: 60px;
+    padding-right: 10px;
+}
+
+.fa-stack
+{
+    position: absolute;
+    font-size: 1.75rem;
+    left: -10px;
+    top: -1.5px;
+}
+
+.info
+{
+    position: relative;
+    font-size: 0.8rem;
+    left: auto;
+    top: 10px;
+}
+
+#filters-info
+{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#filters-info p
+{
+    margin-left: 10px;
+}
+
+.lightblue-color
+{
+    color:#DEEBFF;
+}
+
+.filter-type p:hover
 {
     color: #0065FC;
 }
-
-.filtre_reservia p 
+.search
 {
-    display: inline-block;
-    position: relative;
-    border-bottom: 3px solid #F2F2F2;
-    border-top: 3px solid #F2F2F2;
-    border-right: 3px solid #F2F2F2;
-    right: 25px;
-    margin-block: 5px;
-    text-align: left;
-    padding-left: 25px;
-    padding-right: 9px;
-    padding-top: 11px;
-    padding-bottom: 14px;
-    border-radius: 0px 40px 40px 0px;
+    position:relative;
+       
 }
 
+/**Accommodations Section**/
 
-#third_section
+                    /***Marseilles Accomodations Article***/
+
+
+#accommodations 
 {
     display: flex;
-    flex-direction: column-reverse;
+    
+    
 }
+/*
+.acco-marseilles
+{
+    display: flex;
+    flex: 4;
+    flex-wrap: wrap;
+    background-color:#F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.acco-marseilles:first-child
+{
+    width: 100%;
+    padding-left: 35px;
+    padding-top: 15px;
+}
+
+.acco-marseilles:nth-child(2)
+{
+    flex: 1 1 0;
+}
+*/
+.accommodation-card, .activity-card
+{
+    height: min-content;
+    border: solid 0.3em white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 6px 6px 6px 6px #E8E8E8;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+
+.accommodation-card img, .activity-card img
+{
+    width:1;
+    height: 135px;
+    border-radius: 20px 20px 0 0;
+    
+}
+
+.accommodation-info
+{
+    padding: 0 0 10px 15px;
+}
+
+.accommodation-info h4
+{
+    width:100%;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.accommodation-info p
+{
+    font-size:0.9rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.acco-marseilles:nth-child(2)
+{
+    flex-shrink: 2;
+}
+
+
+
+.blue-color 
+{
+    color: #0065fc;
+}
+
+.grey-color 
+{
+    color: #F2F2F2;
+}
+
+.stars-number, .stars-famous
+{
+    font-size: 0.8rem;
+}
+
+                            /***Marseilles Famous Accomodations Aside***/
+ aside
+ {
+    flex: 1.3;
+    background-color: #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 25px;
+ }
+ 
+
+ #famous-title
+ {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+ }
+
+ #famous-graph
+ {
+    margin-top: 17px;
+ }
+
+ .famous-card
+ {
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: white;
+    border: solid 0.3em white;
+    border-radius: 20px 20px 20px 20px;
+ }
+ 
+ .famous-card img
+ {
+    width:35%;
+    border-radius: 20px 0px 0px 20px;
+ }
+ 
+ .stars-famous
+ {
+     margin-top: 30px;
+ }          
+
+                /*** Marseilles Activities Article***/
+
+#activities
+{
+    display: flex;
+    flex-direction: column;
+       
+}
+
+
+.activity-card 
+{
+    border:none;
+}
+
+.activity-card img 
+{
+    height: 125px;
+       
+}
+
+
+.activity-card h4
+{
+    margin-top: revert;
+    padding: 0 30px 20px 15px;
+}
+
+
+/**Footer**/
+
 
 footer
 {
     background-color: #F2F2F2;
-    margin-top: 5%;
-    padding-top: 10%;
-    margin-bottom: 0%;
+    padding-top: 25px;
+}
+
+#footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer ul
@@ -124,5 +407,6 @@ footer a
 
 footer li
 {
-    padding-block: 2%;
+    padding-block: 5px;
 }
+
