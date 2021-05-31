@@ -1,16 +1,31 @@
-.menu {
-    display: flex;
-    list-style-type: none;
+header{
+    flex-direction: column;
+}
+#header-one{
+    justify-content: space-between;
+    margin-bottom: 15px;
 }
 
+.header-menu {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.header-menu li{
+    width: 50%;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #F2F2F2;
+}
 
 .signUp {
     color: #0065FC;
     font-weight: bold;
-    padding: 15px 125px;
+    padding: 15px;
 }
 
-nav li a:hover {
+.header-menu li:hover {
     color: #0065FC;
     border-bottom: 3px solid #0065FC;
 }
@@ -34,6 +49,8 @@ nav li a:hover {
     display: flex;
     margin-bottom: 30px;
     height: 50px;
+    border: 1px solid #F2F2F2;
+    border-radius: 20px;
 }
 
 .container-marker {
@@ -49,11 +66,11 @@ nav li a:hover {
 }
 
 .search-input {
-    border: 1px solid #F2F2F2;
+    width: 230px;
     padding: 0 0 0 15px;
     font-size: 1.1rem;
     font-weight: bold;
-    width: 230px;
+    border:none;    
 }
 
 .search-input::placeholder {
@@ -132,9 +149,7 @@ nav li a:hover {
     color: #DEEBFF;
 }
 
-.filter-type p:hover {
-    color: #0065FC;
-}
+
 
 .search {
     position: relative;

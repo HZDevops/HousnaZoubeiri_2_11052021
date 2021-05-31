@@ -19,17 +19,14 @@ header {
     display: flex;
 }
 
-
-header nav {
+#header-one{
     display: flex;
-    flex-direction: column-reverse;
-    align-items: flex-end;
 }
 
-nav a {
-    padding: 40px 30px 15px;
+/******/
+.filter-type p:hover {
+    color: #0065FC;
 }
-
 
 /*** CLASSES ***/
 

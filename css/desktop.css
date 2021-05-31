@@ -157,54 +157,17 @@
     }
 
     /**Accommodations Section**/
-    /***Marseilles Accomodations Article***/
+
+        /***Marseilles Accomodations Article***/
     #accommodations {
         flex-direction: row;
     }
 
-    /*#accommodations h3 {*/
-    /*    padding-top: 15px;*/
-    /*    padding-left: 25px;*/
-    /*    width: 100%;*/
-    /*}*/
-    /*#accommodations article {*/
-    /*    flex: 4;*/
-    /*    display: flex;*/
-    /*    width: min-content;*/
-    /*    flex-wrap: wrap;*/
-    /*    background-color: #F2F2F2;*/
-    /*    border-radius: 20px;*/
-    /*    margin-right: 25px;*/
-    /*}*/
-
-
-    /*
-    .acco-marseilles
-    {
-        display: flex;
-        flex: 4;
-        flex-wrap: wrap;
-        background-color:#F2F2F2;
-        border-radius: 20px 20px 20px 20px;
-    }
-
-    .acco-marseilles:first-child
-    {
-        width: 100%;
-        padding-left: 35px;
-        padding-top: 15px;
-    }
-
-    .acco-marseilles:nth-child(2)
-    {
-        flex: 1 1 0;
-    }
-    */
     .accommodation-card, .activity-card {
         width: min-content;
         border: solid 0.3em white;
-        border-radius: 20px 20px 20px 20px;
-        box-shadow: 6px 6px 6px 6px #E8E8E8;
+        border-radius: 20px;
+        box-shadow: 6px #E8E8E8;
         background-color: white;
         margin-bottom: 20px;
     }
