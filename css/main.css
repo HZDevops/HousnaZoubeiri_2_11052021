@@ -1,0 +1,46 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
+/*** Header ***/
+header {
+    display: flex;
+}
+
+
+header nav {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+
+nav a {
+    padding: 40px 30px 15px;
+}
+
+
+/*** CLASSES ***/
+
+.blue-color {
+    color: #0065fc;
+}
+
+.grey-color {
+    color: #F2F2F2;
+}
+
+.stars-number, .stars-famous {
+    font-size: 0.8rem;
+}
