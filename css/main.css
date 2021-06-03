@@ -19,11 +19,9 @@ header {
     display: flex;
 }
 
-#header-one{
-    display: flex;
-}
 
 /******/
+
 .filter-type p:hover {
     color: #0065FC;
 }
@@ -34,6 +32,9 @@ header {
     color: #0065fc;
 }
 
+.lightblue-color {
+    color: #DEEBFF;
+}
 .grey-color {
     color: #F2F2F2;
 }

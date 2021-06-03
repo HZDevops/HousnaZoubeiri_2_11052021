@@ -1,7 +1,7 @@
 @media (min-width: 1024px) {
 
-    #logo {
-        margin-top: 30px;
+    header {
+        
     }
 
     header nav {
@@ -23,236 +23,95 @@
     }
 
 
-    .signUp {
-        color: #0065FC;
-        font-weight: bold;
-        padding: 40px;
-    }
-
-    nav li a:hover {
-        color: #0065FC;
-        border-top: 2px solid #0065FC;
-        padding-top: 38px;
-    }
+    
 
 
     /**Search Accommodations Section**/
-    .search-accommodations {
-        margin-bottom: 30px;
-    }
-
-    .search-accommodations h2 {
-        margin-bottom: 10px;
-    }
-
-    .search-accommodations p {
-        margin-top: 10px;
-    }
-
+    
     .search-menu {
-        display: flex;
-        margin-bottom: 30px;
-        height: 50px;
+        width: 350px;
     }
 
     .container-marker {
-        display: flex;
-        background-color: #F2F2F2;
-        border-radius: 15px 0 0 15px;
         width: 50px;
     }
 
-    .container-marker i {
-        margin: auto;
-        font-size: 1.2rem;
-    }
-
+    
     .search-input {
-        border: 1px solid #F2F2F2;
-        padding: 0 0 0 15px;
-        font-size: 1.1rem;
-        font-weight: bold;
-        width: 230px;
-    }
-
-    .search-input::placeholder {
-        color: black;
+        border: none;
     }
 
     .search-button {
         width: 130px;
-        background-color: #0065FC;
-        border: none;
-        border-radius: 0 15px 15px 0;
-        color: #fff;
-        font-weight: bold;
-        font-size: 1rem;
-
     }
 
     .search-button i {
         display: none;
     }
 
+    .search-button p{
+        display: inline;
+    }
 
     /**Search Filters Section**/
-    #filters-section {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
+   
     #filters-section h3 {
+        width: auto;
         margin-right: 25px;
     }
 
-    #filters-section a {
-        font-weight: bold;
-        margin-right: 75px;
-    }
-
-    .filter-type {
-        display: flex;
-        position: relative;
-        border: 3px solid #F2F2F2;
-        border-radius: 40px;
-        padding-left: 60px;
-        padding-right: 10px;
-    }
-
-    .fa-stack {
-        position: absolute;
-        font-size: 1.75rem;
-        left: -10px;
-        top: -1.5px;
-    }
-
-    .info {
-        position: relative;
-        font-size: 0.8rem;
-        left: auto;
-        top: 10px;
-    }
-
-    #filters-info {
-        display: flex;
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
-
-    #filters-info p {
-        margin-left: 10px;
-    }
-
-    .lightblue-color {
-        color: #DEEBFF;
-    }
-
-    .filter-type p:hover {
-        color: #0065FC;
-    }
-
-    .search {
-        position: relative;
-
-    }
-
-    /**Accommodations Section**/
+/**Accommodations Section**/
 
         /***Marseilles Accomodations Article***/
-    #accommodations {
-        flex-direction: row;
-    }
+#accommodations {
+    flex-direction: row;
+    justify-content: space-between;
+}
+#accommodations article{
+    width: 99%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#F2F2F2;
+    border-radius: 20px;
+    margin-right: 10px;
+}
 
-    .accommodation-card, .activity-card {
-        width: min-content;
-        border: solid 0.3em white;
-        border-radius: 20px;
-        box-shadow: 6px #E8E8E8;
-        background-color: white;
-        margin-bottom: 20px;
-    }
+#accommodations h3{
+    width: 100%;
+    padding-left: 40px;
+   
+}
+    
+.accommodation-card{
+    background-color: white;
+}
 
+.marseilles-accommodation{
+    width: 29%;
+    margin-right: 10px;
+    margin-left: 23px;
+}
 
-    .accommodation-card img, .activity-card img {
-        height: 135px;
-        border-radius: 20px 20px 0 0;
-
-    }
-
-    .accommodation-info {
-        padding: 0 0 10px 15px;
-    }
-
-    .accommodation-info h4 {
-        width: 100%;
-        margin-top: 5px;
-        margin-bottom: 0px;
-    }
-
-    .accommodation-info p {
-        font-size: 0.9rem;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-
-
-    .blue-color {
-        color: #0065fc;
-    }
-
-    .grey-color {
-        color: #F2F2F2;
-    }
-
-    .stars-number, .stars-famous {
-        font-size: 0.8rem;
-    }
-
+#accommodation-plus{
+    margin-top: 25px;
+    margin-bottom: 35px;
+    padding-left: 40px;
+}
     /***Marseilles Famous Accomodations Aside***/
-    aside {
-        /*flex: 2;*/
-        /*background-color: #F2F2F2;*/
-        /*border-radius: 20px 20px 20px 20px;*/
-        /*margin-left: 25px;*/
-    }
 
+aside {
+    width:40%;
+    border-radius: 20px;
+}
 
-    #famous-title {
-        display: flex;
-        justify-content: space-between;
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-
-    #famous-graph {
-        padding-top: 35px;
-    }
-
-    .famous-card {
-        display: flex;
-        margin-bottom: 25px;
-        margin-left: 25px;
-        margin-right: 25px;
-        background-color: white;
-        border: solid 0.3em white;
-        border-radius: 20px 20px 20px 20px;
-    }
-
-    .famous-card img {
-        width: 35%;
-        border-radius: 20px 0px 0px 20px;
-    }
-
-    .stars-famous {
-        margin-top: 30px;
-    }
 
     /*** Marseilles Activities Article***/
-    #activities {
-        display: flex;
-        flex-wrap: wrap;
-        background-color: white;
-    }
+
+#activities {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
 
 
     #activities h3 {
