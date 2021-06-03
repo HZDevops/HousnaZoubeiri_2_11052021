@@ -66,6 +66,7 @@
 #accommodations {
     flex-direction: row;
     justify-content: space-between;
+    width:100%;
 }
 #accommodations article{
     width: 99%;
@@ -76,7 +77,7 @@
     margin-right: 10px;
 }
 
-#accommodations h3{
+article h3{
     width: 100%;
     padding-left: 40px;
    
@@ -93,7 +94,7 @@
 }
 
 #accommodation-plus{
-    margin-top: 25px;
+    margin-top: 10px;
     margin-bottom: 35px;
     padding-left: 40px;
 }
@@ -104,7 +105,21 @@ aside {
     border-radius: 20px;
 }
 
+#famous-graph{
+    margin-top: 0;
+}
 
+#famous-title{
+    margin-bottom: 10px;
+}
+
+#famous-title h3{
+    margin-top: 0;
+}
+.famous-card{
+    margin-bottom: 30px;
+    
+}
     /*** Marseilles Activities Article***/
 
 #activities {
@@ -146,25 +161,10 @@ aside {
 
     /**Footer**/
     footer {
-        background-color: #F2F2F2;
-        padding-top: 25px;
         padding-left: 25px;
     }
 
     #footer {
-        display: flex;
-        justify-content: space-between;
-        padding-right: 250px;
+        flex-direction: row;
+        align-items: unset;
     }
-
-
-    footer ul {
-        list-style-type: none;
-        padding-left: 0px;
-    }
-
-    footer li {
-        padding-block: 5px;
-    }
-
-}
