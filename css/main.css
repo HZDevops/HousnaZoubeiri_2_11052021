@@ -21,6 +21,10 @@ a {
 
 /*** Header ***/
 
+nav li a:hover {
+    color: #0065FC;
+}
+
 
 /***Search Filters Section***/
 

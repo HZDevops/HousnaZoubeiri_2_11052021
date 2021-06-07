@@ -168,7 +168,7 @@ nav li:hover {
 .accommodation-card,
 .activity-card {
     border: solid 0.3em white;
-    box-shadow: 6px 6px 6px 6px #E8E8E8;
+    box-shadow: 6px 6px 6px 6px #f5f4f4;
     margin-bottom: 20px;
 }
 
