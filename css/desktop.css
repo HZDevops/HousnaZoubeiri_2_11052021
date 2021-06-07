@@ -1,16 +1,38 @@
 @media (min-width: 1024px) {
+    header {}
     header nav {
         display: flex;
+        width: 35%;
+        justify-content: space-evenly;
     }
-    .menu {
-        display: flex;
-        list-style-type: none;
+    #header-signUp a {
+        display: none;
+    }
+    #header-signUp2 {
+        padding-top: 40px;
+        width: 10%;
+        text-align: center;
+    }
+    #header-signUp2 a {
+        display: inline;
+        color: #0065FC;
+        font-weight: bold;
+    }
+    #header-signUp a {
+        color: #0065FC;
+        font-weight: bold;
+        padding: 15px;
+    }
+    nav ul {
+        width: 56%;
     }
     nav li {
         padding-top: 25px;
+        border-bottom: none;
     }
-    .menu a {
-        padding: 0 30px 15px;
+    nav li:hover {
+        border-bottom: none;
+        border-top: 3px solid #0065FC;
     }
     /**Search Accommodations Section**/
     .search-accommodations {

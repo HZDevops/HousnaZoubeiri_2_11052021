@@ -3,7 +3,11 @@ body {
     font-weight: normal;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
 }
@@ -14,17 +18,20 @@ a {
     color: black;
 }
 
+
 /*** Header ***/
+
 header {
     display: flex;
 }
 
 
-/******/
+/***Search Filters Section***/
 
 .filter-type p:hover {
     color: #0065FC;
 }
+
 
 /*** CLASSES ***/
 
@@ -35,10 +42,16 @@ header {
 .lightblue-color {
     color: #DEEBFF;
 }
+
 .grey-color {
     color: #F2F2F2;
 }
 
-.stars-number, .stars-famous {
+.stars-number,
+.stars-famous {
     font-size: 0.8rem;
+}
+
+.radius-border {
+    border-radius: 20px;
 }
