@@ -1,7 +1,5 @@
 @media (min-width: 1024px) {
-    header {}
     header nav {
-        display: flex;
         width: 35%;
         justify-content: space-evenly;
     }

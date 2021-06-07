@@ -21,10 +21,6 @@ a {
 
 /*** Header ***/
 
-header {
-    display: flex;
-}
-
 
 /***Search Filters Section***/
 
@@ -54,4 +50,8 @@ header {
 
 .radius-border {
     border-radius: 20px;
+}
+
+.flexbox {
+    display: flex;
 }
