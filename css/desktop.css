@@ -1,0 +1,145 @@
+@media (min-width: 1024px) {
+    header nav {
+        width: 35%;
+        justify-content: space-evenly;
+    }
+    #header-signUp a {
+        display: none;
+    }
+    #header-signUp2 {
+        padding-top: 40px;
+        width: 10%;
+        text-align: center;
+    }
+    #header-signUp2 a {
+        display: inline;
+        color: #0065FC;
+        font-weight: bold;
+    }
+    #header-signUp a {
+        color: #0065FC;
+        font-weight: bold;
+        padding: 15px;
+    }
+    nav ul {
+        width: 56%;
+    }
+    nav li {
+        padding-top: 25px;
+        border-bottom: none;
+    }
+    nav li:hover {
+        border-bottom: none;
+        border-top: 3px solid #0065FC;
+    }
+    /**Search Accommodations Section**/
+    .search-accommodations {
+        margin-left: 20px;
+    }
+    .search-menu {
+        width: 400px;
+    }
+    .search-input {
+        border: none;
+    }
+    .search-button {
+        width: 130px;
+    }
+    .search-button i {
+        display: none;
+    }
+    .search-button p {
+        display: inline;
+    }
+    /**Search Filters Section**/
+    #filters-section h3 {
+        width: auto;
+        margin-right: 25px;
+    }
+    #filters-section {
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+    /**Accommodations Section**/
+    /***Marseilles Accomodations Article***/
+    #accommodations {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 95%;
+        margin-left: 25px;
+    }
+    #accommodations article {
+        width: 99%;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        margin-right: 10px;
+    }
+    article h3 {
+        width: 100%;
+        padding-left: 40px;
+    }
+    .accommodation-card {
+        background-color: white;
+    }
+    .marseilles-accommodation {
+        width: 29%;
+        margin-right: 10px;
+        margin-left: 23px;
+    }
+    #accommodation-plus {
+        margin-top: 10px;
+        margin-bottom: 35px;
+        padding-left: 40px;
+    }
+    /***Marseilles Famous Accomodations Aside***/
+    aside {
+        width: 40%;
+        border-radius: 20px;
+        margin-left: 10px;
+    }
+    #famous-graph {
+        margin-top: 0;
+    }
+    #famous-title {
+        margin-bottom: 10px;
+    }
+    #famous-title h3 {
+        margin-top: 0;
+    }
+    .famous-card {
+        margin-bottom: 30px;
+    }
+    /*** Marseilles Activities Article***/
+    #activities {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 25px;
+    }
+    #activities h3 {
+        padding-left: 0;
+    }
+    #activity-cards {
+        display: flex;
+    }
+    .activity-first {
+        width: 25%;
+        margin-right: 40px;
+    }
+    .activity-first img {
+        height: auto;
+    }
+    .activity-second {
+        width: 25%;
+        margin-right: 40px;
+    }
+    /**Footer**/
+    footer {
+        padding-left: 25px;
+    }
+    #footer {
+        flex-direction: row;
+        align-items: unset;
+    }
+}
