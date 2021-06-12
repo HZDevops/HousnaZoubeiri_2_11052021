@@ -1,35 +1,21 @@
 @media (min-width: 1024px) {
     /****Header***/
-    header nav {
-        width: 40%;
-        justify-content: space-evenly;
+    .nav-header {
+        display: grid;
+        grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "logo . accommodations activities signUp";
     }
-    #header-signUp a {
-        display: none;
-    }
-    #header-signUp2 {
-        padding-top: 40px;
-        text-align: center;
-    }
-    #header-signUp2 a {
-        display: inline;
-        color: #0065FC;
-        font-weight: bold;
-    }
-    #header-signUp a {
-        color: #0065FC;
-        font-weight: bold;
-        padding: 15px;
-    }
-    nav ul {
-        width: 100%;
-    }
-    nav li {
-        padding-top: 25px;
-        border-top: 3px solid white;
+    #nav-header-accommodations,
+    #nav-header-activities {
         border-bottom: none;
+        border-top: 3px solid white;
     }
-    nav li:hover {
+    #nav-header-signUp {
+        padding-left: 0;
+    }
+    #nav-header-accommodations:hover,
+    #nav-header-activities:hover {
         border-bottom: none;
         border-top: 3px solid #0065FC;
     }

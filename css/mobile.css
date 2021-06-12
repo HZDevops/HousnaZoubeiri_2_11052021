@@ -23,19 +23,18 @@
 
 #nav-header-accommodations {
     grid-area: accommodations;
-    border-bottom: 3px solid #F2F2F2;
 }
 
 #nav-header-activities {
     grid-area: activities;
+}
+
+#nav-header-accommodations,
+#nav-header-activities {
     border-bottom: 3px solid #F2F2F2;
 }
 
-#nav-header-accommodations:hover {
-    color: #0065FC;
-    border-bottom: 3px solid #0065FC;
-}
-
+#nav-header-accommodations:hover,
 #nav-header-activities:hover {
     color: #0065FC;
     border-bottom: 3px solid #0065FC;
