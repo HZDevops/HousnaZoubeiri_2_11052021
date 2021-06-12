@@ -21,7 +21,7 @@ a {
 
 /*** Header ***/
 
-nav li a:hover {
+.nav-header a:hover {
     color: #0065FC;
 }
 
@@ -33,7 +33,7 @@ nav li a:hover {
 }
 
 
-/*** CLASSES ***/
+/*** Classes ***/
 
 .blue-color {
     color: #0065fc;
