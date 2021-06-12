@@ -36,7 +36,7 @@
     .search-button i {
         display: none;
     }
-    .search-button p {
+    .search-button span {
         display: inline;
     }
     /**Search Filters Section**/
@@ -50,13 +50,13 @@
     }
     /**Accommodations Section**/
     /***Marseilles Accomodations Article***/
-    #accommodations {
+    #accommodation {
         flex-direction: row;
         justify-content: space-between;
         width: 95%;
         margin-left: 25px;
     }
-    #accommodations article {
+    #accommodation article {
         width: 99%;
         display: flex;
         flex-wrap: wrap;

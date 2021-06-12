@@ -95,7 +95,7 @@
     font-size: 1rem;
 }
 
-.search-button p {
+.search-button span {
     display: none;
 }
 
@@ -145,7 +145,6 @@
 
 #filters-info {
     display: flex;
-    margin-block: 10px;
 }
 
 #filters-info p {
@@ -158,12 +157,12 @@
 
 /***Marseilles Accomodations Article***/
 
-#accommodations {
+#accommodation {
     display: flex;
     flex-direction: column-reverse;
 }
 
-#accommodations article,
+#accommodation article,
 #activities {
     background-color: white;
 }
@@ -207,7 +206,8 @@
 
 aside {
     background-color: #F2F2F2;
-    padding-block: 25px;
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
 
 #famous-title {
@@ -255,7 +255,6 @@ aside {
 }
 
 .activity-card h4 {
-    margin-top: revert;
     padding: 0 30px 20px 15px;
 }
 
@@ -285,5 +284,6 @@ footer a {
 }
 
 footer li {
-    padding-block: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
