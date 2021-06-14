@@ -1,34 +1,21 @@
 @media (min-width: 1024px) {
-    header nav {
-        width: 35%;
-        justify-content: space-evenly;
+    /****Header***/
+    .nav-header {
+        display: grid;
+        grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "logo . accommodations activities signUp";
     }
-    #header-signUp a {
-        display: none;
-    }
-    #header-signUp2 {
-        padding-top: 40px;
-        width: 10%;
-        text-align: center;
-    }
-    #header-signUp2 a {
-        display: inline;
-        color: #0065FC;
-        font-weight: bold;
-    }
-    #header-signUp a {
-        color: #0065FC;
-        font-weight: bold;
-        padding: 15px;
-    }
-    nav ul {
-        width: 56%;
-    }
-    nav li {
-        padding-top: 25px;
+    #nav-header-accommodations,
+    #nav-header-activities {
         border-bottom: none;
+        border-top: 3px solid white;
     }
-    nav li:hover {
+    #nav-header-signUp {
+        padding-left: 0;
+    }
+    #nav-header-accommodations:hover,
+    #nav-header-activities:hover {
         border-bottom: none;
         border-top: 3px solid #0065FC;
     }
@@ -44,11 +31,12 @@
     }
     .search-button {
         width: 130px;
+        border-radius: 0 15px 15px 0;
     }
     .search-button i {
         display: none;
     }
-    .search-button p {
+    .search-button span {
         display: inline;
     }
     /**Search Filters Section**/
@@ -62,13 +50,13 @@
     }
     /**Accommodations Section**/
     /***Marseilles Accomodations Article***/
-    #accommodations {
+    #accommodation {
         flex-direction: row;
         justify-content: space-between;
         width: 95%;
         margin-left: 25px;
     }
-    #accommodations article {
+    #accommodation article {
         width: 99%;
         display: flex;
         flex-wrap: wrap;
@@ -119,6 +107,7 @@
     }
     #activities h3 {
         padding-left: 0;
+        margin-top: 45px;
     }
     #activity-cards {
         display: flex;
@@ -128,11 +117,14 @@
         margin-right: 40px;
     }
     .activity-first img {
-        height: auto;
+        height: 335px;
     }
     .activity-second {
         width: 25%;
         margin-right: 40px;
+    }
+    .activity-second:first-child {
+        flex: 1;
     }
     /**Footer**/
     footer {

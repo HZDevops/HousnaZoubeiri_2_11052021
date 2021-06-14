@@ -21,6 +21,10 @@ a {
 
 /*** Header ***/
 
+.nav-header a:hover {
+    color: #0065FC;
+}
+
 
 /***Search Filters Section***/
 
@@ -29,7 +33,7 @@ a {
 }
 
 
-/*** CLASSES ***/
+/*** Classes ***/
 
 .blue-color {
     color: #0065fc;

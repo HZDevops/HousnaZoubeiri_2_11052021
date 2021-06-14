@@ -1,40 +1,41 @@
-header {
-    flex-wrap: wrap;
-    justify-content: space-between;
+.nav-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "logo signUp" "accommodations activities";
 }
 
-header nav {
-    width: 100%;
+.nav-link {
+    justify-content: center;
+    align-items: center;
 }
 
-#header-signUp {
-    margin-top: 15px;
+#nav-header-logo {
+    grid-area: logo;
+    padding-left: 15px;
 }
 
-nav ul {
-    width: 100%;
-    list-style-type: none;
-    padding-left: 0;
+#nav-header-signUp {
+    grid-area: signUp;
+    padding-left: 75px;
+    font-weight: bold;
 }
 
-nav li {
-    width: 50%;
-    text-align: center;
-    padding-bottom: 15px;
+#nav-header-accommodations {
+    grid-area: accommodations;
+}
+
+#nav-header-activities {
+    grid-area: activities;
+}
+
+#nav-header-accommodations,
+#nav-header-activities {
     border-bottom: 3px solid #F2F2F2;
 }
 
-#header-signUp a {
-    color: #0065FC;
-    font-weight: bold;
-    padding: 15px;
-}
-
-#header-signUp2 a {
-    display: none;
-}
-
-nav li:hover {
+#nav-header-accommodations:hover,
+#nav-header-activities:hover {
     color: #0065FC;
     border-bottom: 3px solid #0065FC;
 }
@@ -44,6 +45,7 @@ nav li:hover {
 
 .search-accommodations {
     margin-bottom: 30px;
+    margin-left: 15px;
 }
 
 .search-accommodations h2 {
@@ -93,7 +95,7 @@ nav li:hover {
     font-size: 1rem;
 }
 
-.search-button p {
+.search-button span {
     display: none;
 }
 
@@ -107,6 +109,7 @@ nav li:hover {
 #filters-section {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 15px;
 }
 
 #filters-section h3 {
@@ -142,7 +145,6 @@ nav li:hover {
 
 #filters-info {
     display: flex;
-    margin-block: 10px;
 }
 
 #filters-info p {
@@ -155,12 +157,12 @@ nav li:hover {
 
 /***Marseilles Accomodations Article***/
 
-#accommodations {
+#accommodation {
     display: flex;
     flex-direction: column-reverse;
 }
 
-#accommodations article,
+#accommodation article,
 #activities {
     background-color: white;
 }
@@ -168,7 +170,7 @@ nav li:hover {
 .accommodation-card,
 .activity-card {
     border: solid 0.3em white;
-    box-shadow: 6px 6px 6px 6px #E8E8E8;
+    box-shadow: 6px 6px 6px 6px #f5f4f4;
     margin-bottom: 20px;
 }
 
@@ -204,7 +206,8 @@ nav li:hover {
 
 aside {
     background-color: #F2F2F2;
-    padding-block: 25px;
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
 
 #famous-title {
@@ -252,7 +255,6 @@ aside {
 }
 
 .activity-card h4 {
-    margin-top: revert;
     padding: 0 30px 20px 15px;
 }
 
@@ -282,5 +284,6 @@ footer a {
 }
 
 footer li {
-    padding-block: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
