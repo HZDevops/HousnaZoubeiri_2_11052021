@@ -57,7 +57,9 @@
         margin-left: 25px;
     }
     #accommodation-bloc {
-        background: #F2F2F2;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        margin-right: 10px;
     }
     article h3 {
         width: 100%;
