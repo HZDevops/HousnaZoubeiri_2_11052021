@@ -1,0 +1,61 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
+
+/*** Header ***/
+
+.nav-header a:hover {
+    color: #0065FC;
+}
+
+
+/***Search Filters Section***/
+
+.filter-type p:hover {
+    color: #0065FC;
+}
+
+
+/*** Classes ***/
+
+.blue-color {
+    color: #0065fc;
+}
+
+.lightblue-color {
+    color: #DEEBFF;
+}
+
+.grey-color {
+    color: #F2F2F2;
+}
+
+.stars-number,
+.stars-famous {
+    font-size: 0.8rem;
+}
+
+.radius-border {
+    border-radius: 20px;
+}
+
+.flexbox {
+    display: flex;
+}
