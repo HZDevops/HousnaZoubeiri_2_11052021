@@ -52,7 +52,6 @@
     /***Marseilles Accomodations Article***/
     #accommodation {
         flex-direction: row;
-        justify-content: space-between;
         width: 95%;
         margin-left: 25px;
     }
@@ -61,8 +60,7 @@
         border-radius: 20px;
         margin-right: 10px;
     }
-    article h3 {
-        width: 100%;
+    #accommodation-bloc h3 {
         padding-left: 40px;
     }
     #accommodation article {
