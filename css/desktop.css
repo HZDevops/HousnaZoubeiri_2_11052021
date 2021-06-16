@@ -56,17 +56,19 @@
         width: 95%;
         margin-left: 25px;
     }
+    #accommodation-bloc {
+        background: #F2F2F2;
+    }
+    article h3 {
+        width: 100%;
+        padding-left: 40px;
+    }
     #accommodation article {
-        width: 99%;
         display: flex;
         flex-wrap: wrap;
         background-color: #F2F2F2;
         border-radius: 20px;
         margin-right: 10px;
-    }
-    article h3 {
-        width: 100%;
-        padding-left: 40px;
     }
     .accommodation-card {
         background-color: white;
@@ -83,7 +85,7 @@
     }
     /***Marseilles Famous Accomodations Aside***/
     aside {
-        width: 40%;
+        width: 100%;
         border-radius: 20px;
         margin-left: 10px;
     }
