@@ -23,9 +23,6 @@
     .search-accommodations {
         margin-left: 20px;
     }
-    .search-menu {
-        width: 400px;
-    }
     .search-input {
         border: none;
     }
@@ -62,6 +59,7 @@
     }
     #accommodation-bloc h3 {
         padding-left: 40px;
+        padding-top: 15px;
     }
     #accommodation article {
         display: flex;
@@ -69,6 +67,7 @@
         background-color: #F2F2F2;
         border-radius: 20px;
         margin-right: 10px;
+        margin-top: 30px;
     }
     .accommodation-card {
         background-color: white;
@@ -79,8 +78,7 @@
         margin-left: 23px;
     }
     #accommodation-plus {
-        margin-top: 10px;
-        margin-bottom: 35px;
+        margin-top: 25px;
         padding-left: 40px;
     }
     /***Marseilles Famous Accomodations Aside***/
@@ -127,13 +125,5 @@
     }
     .activity-second:first-child {
         flex: 1;
-    }
-    /**Footer**/
-    footer {
-        padding-left: 25px;
-    }
-    #footer {
-        flex-direction: row;
-        align-items: unset;
     }
 }
